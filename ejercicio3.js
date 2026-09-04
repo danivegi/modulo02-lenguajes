@@ -26,5 +26,12 @@ function merge(source, target) {
 const a = { name: "Daniel", surname: "Vega", age: 26 };
 const b = { name: "Alberto", city: "Jerez", country: "Spain"};
 
-console.log(clone(a));
-console.log(merge(a,b));
+console.log(clone(a)); // Nos daría como resultado --> { name: 'Daniel', surname: 'Vega', age: 26 }
+console.log(merge(a,b)); /* Nos daría como resultado --> 
+                            name: 'Daniel',
+                            city: 'Jerez',
+                            country: 'Spain',
+                            surname: 'Vega',
+                            age: 26
+                            }
+                            */
